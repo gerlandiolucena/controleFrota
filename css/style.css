@@ -1,0 +1,151 @@
+.black-sel
+{
+	background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+	background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
+	background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	color:#FFF;
+}
+.black-sel .list-group-item-text,a.list-group-item .black-sel .list-group-item-heading
+{
+	color:#FFF;
+}
+
+.panel-black
+{
+	height: 40px;
+	padding: 10px;
+}
+
+body, html{height: 100%;}
+.sub-item
+{
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #000000;
+    background-color: #333;
+    color:#FFF;
+    width: 100%;
+    cursor: pointer;
+    height: 35px;
+    padding: 5px;
+}
+.center
+{
+    text-align: center;
+}
+.sub-item:hover
+{
+    border-left: 3px solid #428bca;
+}
+
+.sub-item:active
+{
+    border-left: 3px solid #2a6496;
+}
+
+.black-row
+{
+	background-color: #333;
+	height:40px;
+	border-left:1px solid #EEE;
+}
+.fa-circle {
+    border-radius: 20px;
+    background-color: #00a65a;
+    height: 8px;
+    overflow: hidden;
+    width: 8px;
+}
+.fa-circle:before {
+    content: "\f111";
+}
+.user-panel > .info > a > .fa {
+    margin-right: 3px;
+}
+.text-green {
+    color: #00a65a !important;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sub-item-border
+{
+    border-left: 4px solid #2a6496;
+}
+.user-panel{
+    background-color: #333;
+}
+.user-panel > .info > p, .user-panel > .info > a {
+    margin-bottom: 9px;
+    color:#eee;
+}
+user-panel > .info {
+    font-weight: 400;
+    padding: 5px 5px 5px 15px;
+    line-height: 1;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.hide-menu a, .hide-menu a:hover{
+    color:#e3e3e3;
+    text-decoration: none;
+}
+#map {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+.user-panel:before, .user-panel:after {
+    display: table;
+    content: " ";
+}
+.user-panel:after {
+    clear: both;
+}
+.left-side {
+    position: absolute;
+    width: 250px;
+    top: 0;
+    z-index: 999;
+    font-size: 0.9em;
+}
+.menu
+{
+    background-color: #000;
+    min-height: 940px;
+}
+
+.space-left
+{
+    margin-left: 15px;
+}
+.hide-menu
+{
+    list-style: none;
+    display: none;
+}
+
+.menu .hide-menu li:hover
+{
+    color:#FFF;
+}
+
+.menu .hide-menu li
+{
+    color:#e3e3e3;
+    height: 28px;
+    padding: 5px;
+    cursor: pointer;
+}
